@@ -1,0 +1,23 @@
+{
+  "name": "rick-roller",
+  "version": "0.0.2",
+  "description": "Spam rickroll calls",
+  "main": "index.mjs",
+  "bin": {
+    "rickroll": "./bin/global.sh"
+  },
+  "keywords": [
+    "prankcall",
+    "spam",
+    "rickroll"
+  ],
+  "author": "camwhite",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ngrok": "^3.1.0",
+    "querystring": "^0.2.0",
+    "terminal-kit": "^1.26.4",
+    "twilio": "^3.23.2"
+  }
+}
