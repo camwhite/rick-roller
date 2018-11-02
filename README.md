@@ -24,5 +24,5 @@ Flags
 Example
 
 ```bash
-rickroll --to +15555555 --from +15555555 --greeting get rolled
+rickroll --to +15555555 --from +15555555 --greeting 'get rolled'
 ```
