@@ -3,6 +3,10 @@
 
 *Unlimited rolls and lulz*
 
+![rick astley](https://i.imgur.com/NJgyIIQ.png)
+
+credit to [ben monster](https://benmonster.com) on the drawing, check out his show tuesdays
+
 ### Requirements
 
 1. twilio api [credentials](https://www.twilio.com/try-twilio) with voice enabled
