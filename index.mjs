@@ -8,21 +8,26 @@ import { getOptions } from './cli'
 const PORT = 3333
 const {
   to,
-  from
+  from,
+  greeting
 } = minimist(process.argv.slice(2))
 const { VoiceResponse } = Twilio.twiml
 const twiml = new VoiceResponse()
-twiml.say('fat whore')
-twiml.say('fat whore')
-twiml.say('fat whore')
+if (greeting) {
+  twiml.say(greeting)
+}
+const sound = 'https://dl.dropbox.com/s/ekhj0kkbqnpowvg' +
+  '/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up' +
+  '%20%281%29.mp3?dl=0'
 twiml.play({
   loop: 1
-}, 'https://dl.dropbox.com/s/ekhj0kkbqnpowvg/Rick%20Astley%20-%20Never%20Gonna%20Give%20You%20Up%20%281%29.mp3?dl=0')
-twiml.say('would you like to leave feedback on this spam')
+}, sound)
+twiml.say('would you like to leave any feedback')
 twiml.record({
   maxLength: 3,
   transcribe: true
 })
+
 let client, url
 
 const start = async () => {

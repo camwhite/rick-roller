@@ -19,9 +19,10 @@ Flags
 
 - `--to` the number to call (required)
 - `--from` your twilio voice number (required)
+- `--greeting` say a greeting (optional)
 
 Example
 
 ```bash
-rickroll --to +15555555 --from +15555555
+rickroll --to +15555555 --from +15555555 --greeting get rolled
 ```
