@@ -1,6 +1,6 @@
 {
   "name": "rick-roller",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Spam rickroll calls",
   "main": "index.mjs",
   "bin": {
