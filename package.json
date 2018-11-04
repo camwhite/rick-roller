@@ -1,10 +1,10 @@
 {
   "name": "rick-roller",
-  "version": "0.1.3",
+  "version": "0.2.3",
   "description": "Spam rickroll calls",
   "main": "index.mjs",
   "bin": {
-    "rickroll": "./bin/global.sh"
+    "rickroll": "./bin/global.mjs"
   },
   "repository": {
     "type": "git",

@@ -60,7 +60,7 @@ const start = async () => {
 }
 
 const makeCall = async () => {
-  console.log('Making a call....')
+  console.log('\nMaking a call....')
   const call = await client.api.calls
     .create({
       url,
